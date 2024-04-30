@@ -15,10 +15,10 @@ Library project for OneVizion
 - server port is running on 8080
 - version of java 18
 - version of Spring boot 3.2.5
-- For database PostgreSQL was used
+- PostgreSQL was used for the database
   - by default credentials
     - `port = 5432`
     - `table name = library`
     - `user = root`
     - `passwrod = root`
-- For initializing and manipulating with database Liquibase was used
+- Liquibase was used for initializing and manipulating with database
