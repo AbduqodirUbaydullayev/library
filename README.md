@@ -5,10 +5,10 @@ Library project for OneVizion
   The project includes a database of books, providing a comprehensive repository for book-related information. Additionally, it offers a set of APIs for interacting with the book database enabling users to perform various operations such as adding and retrieving books.
 
 <h3>API info</h3>
-  - (GET) /api/books - returning a list of all the books contained in the book table, sorted in reverse alphabetical order by the values of the book.title column
-  - (POST) /api/books - adding a new book to the book table
-  - (GET) /api/books/grouped-by-author - returning a list of all books grouped by book author (book.author)
-  - (GET) /api/books/search-by-character - This endpoint accepts a character as a parameter and returns a list of 10 authors whose books' titles contain this character the most number of times
+  - <p>(GET) /api/books - returning a list of all the books contained in the book table, sorted in reverse alphabetical order by the values of the book.title column</p> 
+  - <p>(POST) /api/books - adding a new book to the book table</p> 
+  - <p>(GET) /api/books/grouped-by-author - returning a list of all books grouped by book author (book.author)</p> 
+  - <p>(GET) /api/books/search-by-character - This endpoint accepts a character as a parameter and returns a list of 10 authors whose books' titles contain this character the most number of times</p>
 
 <h3>Stack</h3>
 
